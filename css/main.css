@@ -1,0 +1,92 @@
+main{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.side_L{
+    width: 20%;
+    background-image: url(../img/левый\ фон.png);
+    text-align: center;
+    background-size: 100%;
+    padding: 20px;
+    background-repeat: round;
+    margin-bottom: 50px;
+}
+.side_R{
+    width: 70%;
+    margin-left: 20px;
+    background-image: url(../img/правый\ фон.png);   
+    background-size: 100%;
+    padding: 20px;
+    background-repeat: round;
+    margin-bottom: 50px;
+
+}
+ .left_fon{
+   width: 100%; 
+   height: max-content;
+ }
+ .foto{
+    width: 80%;
+    margin-top: 2vw;
+    border-radius: 50%;
+ }
+ h1{
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+    color: #0084c7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+
+ }
+ h2{
+    margin-top: 30px;
+ }
+ span{
+    color: #939598;
+    font-size: 1.5vw;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+ }
+  .line, .line_R{ 
+  background-image: url(../img/Line\ \ copy\ 6.png);
+  height: 5px;
+  padding: 0;
+  margin: 10px;
+  }
+  .line img{
+    position: absolute;
+   left: 10vw;
+    height: 6px;
+  }
+   article{
+    text-align: left;
+    margin-bottom: 20px;
+   
+   }
+   h3{
+    font-weight: bold;
+   }
+   .hobbi_2box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+   }
+    .hobbi_2box img{
+        width: 70%;
+    }
+    .line_R img{        
+            position: absolute;       
+            height: 6px;
+          }
+  .dosvid_flex{
+    display: flex;
+    justify-content: space-between;
+  }
+    .div_L{
+        width: 20%;
+        text-align: right;
+    }
+    .div_R{
+        width: 70%;
+    }
